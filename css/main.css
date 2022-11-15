@@ -1,0 +1,465 @@
+@charset "utf-8";
+
+body {
+    background: url('../images/main/headerimg.png') no-repeat top center fixed;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+
+
+
+/* header */
+#header {
+    height: 940px;
+}
+
+#header h1 {
+    padding: 62px 0 0 61px;
+}
+
+#header p {
+    padding: 200px 50px 0 50px;
+}
+
+#header p img {
+    width: 100%;
+    display: block;
+
+}
+
+#header p.M_H_txt img {
+    width: 100%;
+    display: none;
+
+}
+
+/* main*/
+#main {
+    background: #fff;
+}
+
+#intro {
+    background: url('../images/main/intro_bg.png')no-repeat left center;
+}
+
+#intro .serum {
+    width: 70.3%;
+    float: right;
+}
+
+#intro .serum h3 {
+    font-family: 'Laila';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 155px;
+    color: #474747;
+    margin-top: 241px;
+    margin-bottom: 22px;
+}
+
+#intro .serum p img {
+    width: 100%;
+}
+
+#intro .serum .txt1 {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #474747;
+    padding: 25px 0 9px 0;
+}
+
+#intro .serum .txt2 {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    color: #474747;
+}
+
+#intro .serum .txt3 {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #474747;
+    padding: 21px 0 179px 0;
+}
+
+#intro .serum .txt3 br.m {
+    display: none;
+}
+
+
+#intro .detail {
+    position: relative;
+    height: 1290px;
+    width: 74.7%;
+}
+
+#intro .detail p img {
+    width: 100%;
+}
+
+#intro .detail .txtbox {
+    position: absolute;
+    bottom: 110px;
+    left: 316px;
+}
+
+#intro .detail .txt1 {
+    font-family: 'Laila';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 155px;
+    color: #474747;
+
+
+}
+
+#intro .detail .txt1 span {
+    color: #fff;
+}
+
+#intro .detail .txt2 {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #474747;
+}
+
+#intro .detail .txt2 br.m {
+    display: none;
+}
+
+#about {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: url('../images/main/txtimg.png')no-repeat center center;
+    padding: 217px 0 0 0;
+    height: 1540px;
+}
+
+#about .formula {
+    width: 31.25%;
+    margin: 0 0 0 186px;
+}
+
+#about .formula img {
+    width: 100%;
+}
+
+#about .formula .txt1 {
+    font-family: 'Laila';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 112px;
+    color: #474747;
+    padding: 23px 0 35px 0;
+}
+
+#about .formula .txt2 {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #474747;
+}
+
+#about .formula .txt2 br.m {
+    display: none;
+}
+
+#about .texture {
+    width: 31.25%;
+    margin: 0 186px 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#about .texture .txt1 {
+    font-family: 'Laila';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 112px;
+    color: #474747;
+}
+
+#about .texture .txt2 {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #474747;
+    padding: 32px 0 81px 0;
+}
+
+#about .texture .txt2 br.m {
+    display: none;
+}
+
+#about .texture img {
+    width: 100%;
+}
+
+#footer .save {
+    background: url('../images/main/footerimg.png');
+    height: 1261px;
+    width: 100%;
+    padding-left: 136px;
+}
+
+#footer .save img {
+    padding: 325px 0 0 0;
+}
+
+#footer address {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #474747;
+    padding: 190px 0 0 0;
+}
+
+
+#footer .copy {
+    padding-top: 20px;
+}
+
+
+@media (max-width:520px) {
+
+    body {
+        background: url('../images/main/headerimg.png') no-repeat top center fixed;
+        background-size: 250%;
+
+        height: 500px;
+    }
+
+    #header {
+        height: 450px;
+    }
+
+    #header h1 {
+        padding: 30px 0 0 10px;
+    }
+
+    #header h1 img {
+        width: 15%;
+    }
+
+    #header p {
+        padding: 0px;
+    }
+
+    #header p.M_H_txt {
+        padding: 30px 0px 0px 0px;
+    }
+
+    #header p img {
+        width: 100%;
+        display: none;
+
+    }
+
+    #header p.M_H_txt img {
+        width: 100%;
+        display: block;
+
+    }
+
+    #main {
+        height: 2700px;
+    }
+
+    /* intro */
+    #intro {
+        background: #AFDCFF;
+
+    }
+
+    #intro .serum {
+        width: 100%;
+        float: right;
+    }
+
+    #intro .serum h3 {
+        font-size: 35px;
+        line-height: 70px;
+        margin-top: 50px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    #intro .serum p img {
+        width: 100%;
+    }
+
+    #intro .serum .txt1 {
+        font-size: 12px;
+        padding: 20px 0 9px 0;
+        text-align: center;
+    }
+
+    #intro .serum .txt2 {
+        font-size: 20px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    #intro .serum .txt3 {
+        font-size: 15px;
+        line-height: 27px;
+        padding: 19px 0 50px 0;
+        text-align: center;
+    }
+
+    #intro .serum .txt3 br.m {
+        display: block;
+    }
+
+    #intro .detail {
+        width: 100%;
+        height: 100px;
+    }
+
+    #intro .detail p img {
+        width: 100%;
+    }
+
+    #intro .detail .txtbox {
+        position: absolute;
+        top: 200px;
+        left: 0px;
+    }
+
+    #intro .detail .txt1 {
+        font-size: 35px;
+        line-height: 70px;
+        text-align: center;
+        padding: 0 0 0 20px;
+    }
+
+    #intro .detail .txt2 {
+        font-size: 15px;
+        text-align: center;
+        padding: 0 0 0 20px;
+    }
+
+    #intro .detail .txt2 br.m {
+        display: block;
+    }
+
+    #about {
+        display: flex;
+        /*         justify-content: space-between; */
+        flex-wrap: wrap;
+        background: none;
+        padding: 420px 0 0 0;
+        height: 1540px;
+    }
+
+    #about .formula {
+        width: 100%;
+        margin: 0px;
+    }
+
+    #about .formula .txt1 {
+        font-size: 35px;
+        line-height: 30px;
+        padding: 30px 0 20px 0;
+        text-align: center;
+    }
+
+    #about .formula .txt1 br {
+        display: none;
+    }
+
+    #about .formula .txt2 {
+        line-height: 27px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    #about .formula .txt2 br {
+        display: none;
+    }
+
+    #about .formula .txt2 br.m {
+        display: block;
+    }
+
+    /* texture */
+    #about .texture {
+        width: 100%;
+        margin: 0 0px 0 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #about .texture img {
+        order: 1;
+        width: 100%;
+    }
+
+    #about .texture .txt1 {
+        font-size: 35px;
+        line-height: 50px;
+        padding: 30px 0 0 0;
+        text-align: center;
+        order: 2;
+    }
+
+    #about .texture .txt2 {
+        font-size: 15px;
+        text-align: center;
+        order: 3;
+    }
+
+    #about .texture .txt2 br.m {
+        display: block;
+    }
+
+    #footer {
+        background: #fff;
+    }
+
+    #footer .save {
+        background: url(../images/main/footerimg.png) no-repeat;
+        padding-left: 0px;
+        background-size: 400px;
+        height: 500px;
+    }
+
+    #footer .save img {
+        padding: 73px 0 0 20px;
+        width: 75%;
+    }
+
+    #footer address {
+        font-size: 14px;
+        line-height: 22px;
+        padding: 80px 0 0 20px;
+    }
+
+
+    #footer .copy {
+        padding: 20px 0 0 20px;
+    }
+}
